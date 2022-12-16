@@ -14,7 +14,6 @@ const CocktailShow = () => {
       const data = await response.json();
       setCocktail(data.drinks[0]);
     })();
-    console.log("re-render");
   }, [id]);
 
   return (
